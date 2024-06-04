@@ -16,7 +16,6 @@ import java.util.Base64;
 @RequestMapping("/test")
 public class PjcTestController {
 
-    private static final String TEST_KEY = "3c8097b782e7e6b1b8e92de3591011db8f454f5d5dfa382cf135e7cacd79a664";
     public static final EcCommutativeCipher cipher = EcCommutativeCipher.createWithNewKey(SupportedCurve.SECP256R1);
 
     @Autowired
